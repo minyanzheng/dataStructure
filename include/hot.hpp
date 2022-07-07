@@ -7,8 +7,11 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <unordered_set>
 using namespace std;
 class Solution {
 public:
     string longestPalindrome(string s);
+    int lengthOfLongestSubstring(string s);
+    int maxArea(vector<int>& height);
 };

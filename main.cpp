@@ -7,6 +7,7 @@ int main(int argc, char const *argv[])
 {
     /* code */
     Solution* solv = new Solution();
-    cout<<solv->longestPalindrome("cbbd")<<endl;
+    cout<<solv->lengthOfLongestSubstring("tmmzuxt")<<endl;
+
     return 0;
 }
